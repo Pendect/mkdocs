@@ -26,10 +26,12 @@ build: ## Builds docker image for mkdocs
 push: ## Pushes mkdocs images to DockerHub
 	docker push $(NAME):$(VERSION)
 	docker push $(NAME):latest
+	git push origin --tags
 
 .PHONY: tag_latest
 tag_latest: ## Tag image with version and latest tag
 	docker tag $(NAME):$(VERSION) $(NAME):latest
+	git tag -a $(VERSION) -m 'Released version $(VERSION)'
 
 .PHONY: last_built_date
 last_built_date: ## Show last build date
