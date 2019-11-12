@@ -1,0 +1,11 @@
+.git
+.gitignore
+.github
+README.md
+CHANGES.md
+docs
+Makefile
+VERSION
+LICENSE
+site
+mkdocs.yml

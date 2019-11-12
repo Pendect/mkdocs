@@ -1,0 +1,31 @@
+site_name: pendect/mkdocs
+site_description: 'MkDocs Image'
+site_author: 'Pendect GmbH'
+repo_name: 'Pendect/mkdocs'
+repo_url: 'https://github.com/Pendect/mkdocs'
+theme:
+  name: 'material'
+  logo: 'images/pendect-logo.png'
+  favicon: 'images/favicon.png'
+  palette:
+    primary: 'Blue'
+    accent: 'Blue'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+
+
+# Repository
+repo_name: Pendect/mkdocs
+repo_url: https://github.com/Pendect/mkdocs
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2019 - Pendect GmbH'
+
+# Page tree
+pages:
+  - Home: index.md
