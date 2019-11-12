@@ -2,6 +2,7 @@
 
 # MkDocs Docker Image
 
+[![Linter][linter badge]][linter action] &nbsp;
 [![GitHub release][release badge]][latest release] &nbsp;
 [![GitHub][LICENSE badge]][LICENSE]
 
@@ -70,6 +71,8 @@ Stay up to date with news events across the globe and be a part in the fight aga
 ### Follow us
 [![pendecthq on twitter][twitter badge]][twitter]
 
+[linter badge]: https://github.com/Pendect/mkdocs/workflows/Lint%20files/badge.svg?branch=master
+[linter action]: https://github.com/Pendect/mkdocs/actions?query=workflow%3A%22Lint+files%22+branch%3Amaster
 [twitter badge]: https://img.shields.io/twitter/follow/pendecthq.svg?style=social
 [twitter]: https://twitter.com/intent/follow?screen_name=pendecthq
 [LICENSE badge]: https://img.shields.io/github/license/Pendect/mkdocs.svg
