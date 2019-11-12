@@ -1,6 +1,13 @@
+<div align="center">
+
 # MkDocs Docker Image
 
+[![GitHub release][release badge]][latest release] &nbsp;
+[![GitHub][LICENSE badge]][LICENSE]
+
 Custom Docker image with [MkDocs](https://www.mkdocs.org/).
+
+</div>
 
 ## About
 
@@ -54,5 +61,21 @@ For major changes, please open an issue first to discuss what you would like to 
 
 Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## About
+
+[Pendect](https://pendect.com/) is reshaping the way you navigate your daily flood of news.
+
+Stay up to date with news events across the globe and be a part in the fight against fake news.
+
+### Follow us
+[![pendecthq on twitter][twitter badge]][twitter]
+
+[twitter badge]: https://img.shields.io/twitter/follow/pendecthq.svg?style=social
+[twitter]: https://twitter.com/intent/follow?screen_name=pendecthq
+[LICENSE badge]: https://img.shields.io/github/license/Pendect/mkdocs.svg
+[LICENSE]: https://github.com/Pendect/mkdocs/blob/master/LICENSE
+[release badge]: https://img.shields.io/github/release/Pendect/mkdocs.svg
+[latest release]: https://github.com/Pendect/mkdocs/releases/latest
+[star badge]: https://img.shields.io/github/stars/Pendect/mkdocs.svg?style=social
+[star]: https://github.com/Pendect/mkdocs
+[gh profile]: https://github.com/Pendect
